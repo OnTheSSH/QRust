@@ -52,7 +52,7 @@ Qt | QList<qint32> | QHash<qint32, QString> | QHash<QString, QString>
 Rust | Vec<i32> | HashMap<i32, String> | HashMap<String, String>
 
 ## More information:
-[QRust (1) Introduction] (https://onthessh.com/articles/qrust-1-introduction/)
-[QRust (2) Data Type] (https://onthessh.com/articles/qrust-2-data-type/)
-[QRust (3) Framework] (https://onthessh.com/articles/qrust-3-framework/)
-[QRust (4) Example] (https://onthessh.com/articles/qrust-4-example/)
+1. [QRust (1) Introduction](https://onthessh.com/articles/qrust-1-introduction/)
+2. [QRust (2) Data Type](https://onthessh.com/articles/qrust-2-data-type/)
+3. [QRust (3) Framework](https://onthessh.com/articles/qrust-3-framework/)
+4. [QRust (4) Example](https://onthessh.com/articles/qrust-4-example/)
