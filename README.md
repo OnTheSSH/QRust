@@ -6,7 +6,7 @@ QRust comes from the tool software OnTheSSH, which is jointly built by Qt and Ru
 
 ## An example of using QRust:
 Rust:
-'''
+```
 fn invoke(fun_name: &str, mut args: Vec<&[u8]>) -> Result<Option<Vec<u8>>>
 {
     match fun_name
@@ -25,10 +25,10 @@ fn invoke(fun_name: &str, mut args: Vec<&[u8]>) -> Result<Option<Vec<u8>>>
         ……
     }
 }
-'''
+```
 In the above code, by matching the string “foo2” to the function api::foo2(), deserialize the three parameters and serialize the return value of the function.
 Qt:
-'''
+```
 Rust rust("foo2");  //Declare the Rust function foo2 to call
  
 //Parameter 1
@@ -45,9 +45,9 @@ rust.call(ba1, ba2, ba3);  //Call the function and pass arguments
  
 QHash<QString, QString> ret;  //Declared return value
 QRust_De::upack_hs_str(rust.pop(), &ret);  //Deserialization gets the return value
-'''
+```
 In the above code, declare the Rust side function foo2 to call, serialize and pass three parameters, and then deserialize the function call to get the return value. In the example, transformations of three complex data types are implemented:
-
+---- | ---- | ----
 Qt | QList<qint32> | QHash<qint32, QString> | QHash<QString, QString>
 Rust | Vec<i32> | HashMap<i32, String> | HashMap<String, String>
 
