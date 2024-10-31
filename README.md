@@ -48,7 +48,7 @@ QRust_De::upack_hs_str(rust.pop(), &ret);  //Deserialization gets the return val
 ```
 In the above code, declare the Rust side function foo2 to call, serialize and pass three parameters, and then deserialize the function call to get the return value. In the example, transformations of three complex data types are implemented:
 - Qt: QList<qint32>, QHash<qint32, QString>, QHash<QString, QString>
-- Rust Vec<i32>, HashMap<i32, String>, HashMap<String, String>
+- Rust: Vec<i32>, HashMap<i32, String>, HashMap<String, String>
 
 ## More information:
 1. [QRust (1) Introduction](https://onthessh.com/articles/qrust-1-introduction/)
