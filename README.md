@@ -50,7 +50,6 @@ In the above code, declare the Rust side function foo2 to call, serialize and pa
 | language | parameter 1 | parameter 2 | parameter 3 |
 |---|---|---|---|
 | Qt | QList<qint32> | QHash<qint32, QString> | QHash<QString, QString> |
-|---|---|---|---|
 | Rust | Vec<i32> | HashMap<i32, String> | HashMap<String, String> |
 
 ## More information:
