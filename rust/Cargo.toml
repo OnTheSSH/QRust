@@ -1,0 +1,21 @@
+[package]
+name = "rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libc = "*"
+
+log = "0.4"
+log4rs = "0.10.0"
+
+serde = {version = "1.0", features = ["derive"]}
+serde_qrust = {path = "./serde_qrust"}
+
+[lib]
+crate-type = ["staticlib"]
+name = "qrust"
+[profile.release]
+panic = "abort"
+[profile.dev]
+panic = "abort"
