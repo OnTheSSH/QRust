@@ -2,7 +2,7 @@
 
 QRust is an open source component related to mixed programming in both Qt and Rust languages, and is a support technology for Qt calling Rust functions.
 
-![invoke](https://onthessh.com/wp-content/uploads/2024/11/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2024-11-11-110958.png)
+![QRust](https://onthessh.com/wp-content/uploads/2024/11/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2024-11-11-110958.png)
 
 QRust comes from the tool software OnTheSSH, which is jointly built by Qt and Rust. Rust implements the underlying protocol of SSH communication, Qt builds the program interface, and the technical requirements of Qt calling Rust give rise to QRust.
 
